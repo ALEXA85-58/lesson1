@@ -1,35 +1,38 @@
 {
   "name": "lesson1",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ALEXA85-58/lesson1.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ALEXA85-58/lesson1/issues"
-  },
-  "homepage": "https://github.com/ALEXA85-58/lesson1#readme",
+  "description": "lesson1 tutorial",
+  "main": "index.html",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
     "bootstrap": "^4.6.0",
-    "jquery": "^3.6.0"
-  },
-  "browserslist": [
-    "last 1 version, > 1%, IE 10"
-  ],
-  "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-htmlmin": "^5.0.1",
     "gulp-plumber": "^1.2.1",
     "gulp-rigger": "^0.5.8",
     "gulp-sass": "^5.0.0",
-    "gulp-terser": "^2.0.1"
-  }
+    "gulp-terser": "^2.0.1",
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ALEXA85-58/lesson1.git"
+  },
+  "keywords": [
+    "html",
+    "lesson1",
+    "git",
+    "branches"
+  ],
+  "author": "ALEXA85-58",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ALEXA85-58/lesson1/issues"
+  },
+  "homepage": "https://github.com/ALEXA85-58/lesson1#readme"
 }

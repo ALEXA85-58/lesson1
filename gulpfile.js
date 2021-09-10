@@ -55,7 +55,7 @@ gulp.task('build:scss', function (done){
     done();
 });
 
-gulp.task('build:script', function (done) {
+gulp.task('build:js', function (done) {
     gulp.src(path.src.js)
         .pipe(plumber())
         .pipe(rigger())
@@ -64,5 +64,5 @@ gulp.task('build:script', function (done) {
     done();
 });
 
-gulp.task('default', gulp.parallel('mv:fonts','build.js','build:html','build:scss'));
+gulp.task('default', gulp.parallel('mv:fonts','build:js','build:html','build:scss'));
 

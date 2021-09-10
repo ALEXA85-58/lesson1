@@ -55,5 +55,14 @@ gulp.task('build:scss', function (done){
     done();
 });
 
+gulp.task('build:script', function (done) {
+    gulp.src(path.src.js)
+        .pipe(plumber())
+        .pipe(rigger())
+        .pipe(terser())
+        .pipe(gulp.dest(path.build.js))
+    done();
+});
+
 gulp.task('default', gulp.series('mv:fonts'));
 

@@ -64,5 +64,5 @@ gulp.task('build:script', function (done) {
     done();
 });
 
-gulp.task('default', gulp.series('mv:fonts'));
+gulp.task('default', gulp.parallel('mv:fonts','build.js','build:html','build:scss'));
 
